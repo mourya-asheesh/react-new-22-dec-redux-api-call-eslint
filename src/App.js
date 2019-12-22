@@ -12,7 +12,7 @@ return (
           target="_blank"
           rel="noopener noreferrer"
         >
-          {title} Learn React 
+          {title} 
         </a>
       </header>
     </div>
