@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import './App.css'
+import Posts from './components/Posts'
+import PostForm from './components/PostForm'
 
 // function App() {
+
   const App = ({ title }) => {
 return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -14,7 +17,10 @@ return (
         >
           {title} Learn React 
         </a>
-      </header>
+      </header> */}
+      <PostForm/>
+      <hr/>
+      <Posts/>
     </div>
   );
 }
